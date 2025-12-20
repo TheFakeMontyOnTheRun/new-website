@@ -5,7 +5,7 @@ SRC_DIR := src
 INDEX_MD := $(SRC_DIR)/index.md
 BUILD_DIR := build
 MARKDOWN := markdown
-SITE_URL := https://example.neocities.org   # ← change this
+SITE_URL := https://montyontherun.neocities.org
 SITE_TITLE := "My Neocities Site"
 SITE_DESCRIPTION := "A personal site built with Markdown and Make"
 
