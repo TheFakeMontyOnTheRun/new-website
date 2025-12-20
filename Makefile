@@ -67,7 +67,7 @@ $(BUILD_DIR)/index.html: $(HTML_FILES) $(INDEX_MD)
 		while IFS="|" read -r mtime ctime html title; do \
 			echo "<li><a href=\"$${html##*/}\">$$title</a> — <time datetime=\"$$ctime\">$$ctime</time>"; \
 			if [ "$$mtime" != "$$ctime" ]; then \
-				echo " <span>(Updated $$mtime)</span>"; \
+				echo " <span>(original $$mtime)</span>"; \
 			fi; \
 			echo "</li>"; \
 		done; \
